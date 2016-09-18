@@ -7,10 +7,6 @@ body {
     margin:100px;
 }
 
-blink {
-    color:yellow;
-}
-
 .neg {
     background:#fff;
     color:#0000aa;
@@ -31,4 +27,22 @@ a,a:hover {
 .menu {
     text-align:center;
     margin-top:50px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #7A7A7A;
+    transition: color 1s;
+}
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
 }
