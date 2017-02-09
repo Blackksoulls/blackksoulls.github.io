@@ -1,150 +1,189 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Blackksoulls</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!-- <link rel="stylesheet" href="assets/css/custom.css" /> -->
-	</head>
-	<body style="background-image: url('assets/css/images/snow.gif'); background-repeat: repeat;">
+<!DOCTYPE html>
+<html lang="fr">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Johan Planchon" />
+    <meta name="description" content="Personal dev. website" />
+    <title>~ Kuro ~</title>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="src/pp.png" alt="" /></span>
-						<h1>Blackksoulls</h1>
-						<p><a href="https://twitter.com/blackksoulls">Twitter</a> | Discord: Kuromachii#4867 | My <a href="http://wikikuro.herokuapp.com/index.php?title=Accueil">Wiki</a> | <a href="https://github.com/Blackksoulls">GitHub</a></p>
-					</header>
+    <!-- bootstrap css "CORE FILE" cf Pony Island ~ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Own CSS -->
+    <link href="css/style.min.css" rel="stylesheet" />
+    <!-- Morphtext CSS -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/morphext.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+</head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#about" class="active">About me</a></li>
-							<li><a href="#project">My projects</a></li>
-							<li><a target="_blank" href="http://wikikuro.herokuapp.com/index.php?title=Accueil">My Wiki (feel free to add some things)</a></li>
-						</ul>
-					</nav>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Kuro</a>
+            </div>
 
-						<!-- Introduction -->
-							<section id="about" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>About me</h2>
-										</header>
-										<p>Well, who I am... I'm a french lolicon, :3 I'm trying to learn a bit of a lot of programming languages.
-										I'm watching animes / reading mangas absolutely every days. And I'm coding for fun for the moment but later
-										I'd really like to make this my work. I prefer computer languages but I can use HTML, CSS, JS too. I just don't like
-										these a lot. 
-										<br />So now that you know all that things please be kind with me ^.^
-										<br />
-										<br />If you want to know something, don't be shy just ask me o/ ! I do not bite :p</p>
-									</div>
-									<span class="image"><img src="src/me.png" alt="" /></span>
-								</div>
-							</section>
+            <!-- Navbar list -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">A propos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#project">Projets</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            Autres <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a target="_blank" href="http://wikikuro.herokuapp.com/index.php?title=Accueil">Wiki (en pause)</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/Blackksoulls">Github</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://discord.gg/aNn9hCj">Discord</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-						<!-- First Section -->
-							<section id="project" class="main special">
-								<header class="major">
-									<h2>My Projects</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style1 fa-code-fork"></span>
-										<h3>The project of my senior year</h3>
-										<p>Phoenix3 project</p>
-										<a target="_blank" href="https://github.com/blackksoulls/phoenix3/" class="button">Learn More</a>
-									</li>
-									<li>
-										<span class="icon major style3 fa-file-text-o"></span>
-										<h3>Motivation letter generator</h3>
-										<p>A generator of motivation letters, written in python. (I'll add the export to pdf function soon, other CSS themes and a documentation)</p>
-										<a target="_blank" href="https://github.com/Blackksoulls/motivation-letter-gen" class="button">Learn More</a>
-									</li>
-									<li>
-										<span class="icon major style2 fa-code"></span>
-										<h3>Kurotools</h3>
-										<p>A soft in python with a package manager and scripts that I've made in python.</p>
-										<a target="_blank" href="http://blackksoulls.github.io/kurotools/" class="button">Learn More</a>
-									</li>
-									<li>
-										<span class="icon major style4 fa-eye"></span>
-										<h3>Bot discord (python)</h3>
-										<p>A little bot for discord with discordpy. (with a log function and other things that I'll implement)</p>
-										<a href="#" class="button">Learn More</a>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gamepad"></span>
-										<h3>Some GameMaker attempts</h3>
-										<p>I've just bought GameMaker Pro so I'll try to do some things. <br>(You'll wait a bit before to see some things coming, I've other things to do before)</p>
-										<a href="#" class="button">Learn More</a>
-									</li>
-								</ul>
-							</section>
+    <!-- Picture and animated text <3 -->
+    <section id="intro" class="intro-section snowy active">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="page-scroll undrag" href="#about"><img src="res/pp.png" class="img-circle mx-auto d-block pp undrag" /></a>
+                    <h1><span id="js-rotating">Kuro, Blackksoulls, Kuromachii, Johan</span></h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Get Started -->
-							<!-- <section id="term" class="main special">
-								<header class="major">
-									<h2>Command line website interface</h2>
-									<p>In work for a moment, please be patient ^^</p>
-								</header>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="#" class="button special">Go to it !</a></li>
-										<li><a href="404.html" class="button">Error 404</a></li>
-									</ul>
-								</footer>
-							</section> -->
+    <!-- Intro about me -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-left">A propos de moi:</h1><br />
+                    <p class="text-left"><b>Bonjour, je suis Kuro !</b><br />
+                            Je suis un lycéen Français, j'ai commencé à programmer il y a quelques années déjà,<br />
+                            mais j'ai vraiment commencé en entrant au lycée.<br />
+                            J'ai commencé avec le Python (que j'apprécie beaucoup), puis je me suis essayé à l'HTML / CSS / JS <br />
+                            que j'ai un peu moins travaillé mais suffisament pour les utiliser pour l'application mobile <br />
+                            pour mon projet de terminale. J'ai aussi vu les bases du PHP, SQL, Ruby, C / C++...<br />
+                            Et plus récemment, je m'essaye au Rust et au Lua (avec le game engine <a target="_blank" href="https://love2d.org/">LÖVE</a>).<br />
+                            <br />
+                            Je possède aussi un RaspberryPi qui me sert de serveur de test pour mes différents projets<br />
+                            nécessitants une BDD avec un apache. Il me sert aussi pour héberger un Cloud personnel et un serveur mail.
+                        <br>
+                        <br />Si vous voulez savoir quelque chose, n'hésitez pas à demander ! o/ Je ne mort pas ;)</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Discord Widget --><!--
-							<section id="discord" class="main special">
-								<header class="major">
-									<h2>My Discord server</h2>
-								</header>
-								<footer class="major">
-								<iframe src="https://discordapp.com/widget?id=226978497833205761&theme=light" width="450" height="625" allowtransparency="true" frameborder="0"></iframe>
-								</footer>
+    <!-- Mes projets -->
+    <section id="project" class="project-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-left">Mes projets:</h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 project">
+                                <div class="thumbnail">
+                                    <span class="fa fa-code-fork rose"></span>
+                                    <div class="caption">
+                                        <h2>Mon projet de fin d'année</h2>
+                                        <h4 class="text-left">Le code de mon application Ionic 2 et quelques ressources allant avec.</h4>
+                                        <br />
+                                        <a target="_blank" href="https://github.com/Blackksoulls/phoenix3" class="btn btn-default" role="button">Le projet</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 project">
+                                <div class="thumbnail">
+                                    <span class="fa fa-code marine"></span>
+                                    <div class="caption">
+                                        <h2>Kurotools</h2>
+                                        <h4 class="text-left">Juste quelques outils en python</h4>
+                                        <br />
+                                        <a target="_blank" href="https://github.com/Blackksoulls/kurotools" class="btn btn-default" role="button">Le projet</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 project">
+                                <div class="thumbnail">
+                                    <span class="fa fa-file-text-o violet"></span>
+                                    <div class="caption">
+                                        <h2>Quelques liens utiles</h2>
+                                        <h4 class="text-left">Une Gist remplie avec des liens en rapport avec la programmation et autres.</h4>
+                                        <br />
+                                        <a target="_blank" href="https://gist.github.com/Blackksoulls/562e76e822876c52c828aefd9345fed5" class="btn btn-default" role="button">Le projet</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					</div>-->
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Pour me contacter:</h1>
+                    <a target="_blank" href="https://github.com/Blackksoulls"><span class="fa-stack fa-3x fa-lg bordered darker">
+                        <i class="fa fa-github fa-stack-1x secondary" aria-hidden="true"></i>
+                    </span></a>
+                    <a target="_blank" href="https://twitter.com/blackksoulls"><span class="fa-stack fa-3x fa-lg bordered darker">
+                        <i class="fa fa-twitter fa-stack-1x secondary" aria-hidden="true"></i>
+                    </span></a>
+                    <a target="_blank" href="mailto:blackksoulls@gmail.com"><span class="fa-stack fa-3x fa-lg bordered darker">
+                        <i class="fa fa-envelope fa-stack-1x secondary" aria-hidden="true"></i>
+                    </span></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Contact</h2>
-							<dl class="alt">
-								<dt>Twitter</dt>
-								<dd><a target="_blank" href="https://twitter.com/blackksoulls">@blackksoulls</a></dd>
-								<dt>Discord</dt>
-								<dd><a target="_blank" href="https://discord.gg/aNn9hCj">Kuro's World</a></dd>
-								<dt>Email</dt>
-								<dd><a target="_blank" href="mailto:blackksoulls@gmail.com">blackksoulls@gmail.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://twitter.com/blackksoulls" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/Blackksoulls" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-					</footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap js "CORE FILE" :joke:-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Js for scrolling nav -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <!-- Js Morphtext -->
+    <script src="js/morphext.min.js"></script>
+    <!-- Own Js -->
+    <script src="js/main.js"></script>
+</body>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-	</body>
 </html>
