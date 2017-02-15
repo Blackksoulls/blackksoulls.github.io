@@ -2,7 +2,7 @@ body {
     background:#0000aa;
     color:#ffffff;
     font-family:courier;
-    font-size:12pt;
+    font-size:4vmin;
     text-align:center;
     margin:100px;
 }
@@ -43,6 +43,6 @@ a:hover {
   animation: blinker 2s linear infinite;
 }
 
-@keyframes blinker {  
+@keyframes blinker {
   50% { opacity: 0.0; }
 }

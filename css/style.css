@@ -18,23 +18,62 @@ body, html {
     .top-nav-collapse {
         padding: 0;
     }
+    .not-hiden {
+        display: auto;
+    }
+    .hiddened {
+        display: none;
+    }
+    .project-section {
+        padding-top: 20vmin;
+    }
+    .bordered i {
+        font-size: 7vmin;
+    }
+    .dropdown-menu a {
+        font-size: 2.3vmin;
+    }
+    .navbar-brand {
+        font-size: 4vmin;
+    }
+    .navbar-ex1-collapse {
+        font-size: 3vmin;
+    }
+}
+@media(max-width:767px) {
+    .hiddened {
+        display: auto;
+    }
+    .project-section {
+        padding-top: 10vmin;
+    }
+    .not-hiden {
+        display: none;
+    }
+    .bordered i {
+        font-size: 13vmin;
+    }
+    .dropdown-menu a {
+        font-size: 3.5vmin;
+    }
+    .navbar-brand {
+        font-size: 6vmin;
+    }
+    .navbar-ex1-collapse {
+        font-size: 4vmin;
+    }
+    #js-rotating {
+        font-size: 13vmin;
+    }
 }
 
-.navbar-brand {
-    font-size: 4vmin;
-}
-
-.navbar-ex1-collapse {
-    font-size: 3vmin;
-}
-
-.dropdown-menu a {
-    font-size: 2.3vmin;
+.hiddened .project {
+    margin-bottom: 20vmin;
 }
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 20vmin;
     text-align: center;
     background: #fff;
     color: #fff;
@@ -48,7 +87,7 @@ body, html {
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 20vmin;
     text-align: center;
     background: #eee;
 }
@@ -58,25 +97,26 @@ body, html {
 
 .project-section {
     height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 20vmin;
     text-align: center;
     background: #eee;
 }
 
 .gist-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 20vmin;
     text-align: center;
 }
 
 .pp {
+    width: auto;
+    height: 50vmin;
     border-width: 1vmin;
     border-color: rgba(119,69,103, 0.7);
     border-style: solid;
@@ -90,6 +130,18 @@ body, html {
 .project span {
     margin-top: 2vmin;
     font-size: 13vmin;
+}
+.hiddened h2 {
+    font-size: 7vmin;
+}
+.hiddened h4 {
+    font-size: 5vmin;
+}
+.project {
+    height: 20vmin;
+}
+.hiddened a:hover {
+    text-decoration: none;
 }
 
 .contact-text {
@@ -133,7 +185,4 @@ body, html {
     border-color: #777777;
     border-radius: 50%;
     margin:10vmin;
-}
-.bordered i {
-    font-size: 7vmin;
 }
