@@ -1,213 +1,153 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!--
+repo: https://github.com/Blackksoulls/ppp-web-2018
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Johan Planchon" />
-    <meta name="description" content="Personal dev. website" />
-    <title>~ Kuro ~</title>
-
-    <!-- bootstrap css "CORE FILE" cf Pony Island ~ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Own CSS -->
-    <link href="css/style.min.css" rel="stylesheet" />
-    <!-- Morphtext CSS -->
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/morphext.css" />
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Kuro</a>
-            </div>
-
-            <!-- Navbar list -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+Dev with love, music, php -S localhost:80 and sass --watch sass:css --style expanded
+Copyright (c) 2017 Johan Planchon.
+-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Global metadata tags -->
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="revisit-after" content="30 days">
+        <meta name="robots" content="index, nofollow">
+        <!-- Basic things -->
+        <title>Johan Planchon</title>
+        <meta name="description" content="">
+        <!-- Icon lul -->
+        <!-- External things -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="Johan Planchon">
+        <meta name="application-name" content="Johan Planchon">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div id="wrapbehind">
+            <!-- Background : Canada by Claire Mathez -->
+        </div>
+        <div id="top">
+            <h2 id="toptext">Mon parcours</h2>
+            <div class="content">
+                <ul>
+                    <li>
+                        <span class="year">2017</span>
+                        <span>
+                           <span class="what">Passage du BAC STI2D - SIN, Mention Très Bien</span>
+                        <span class="where">
+                            <a target="_blank" href="http://www.lycee-louis-armand.com/">
+                                <i class="fa fa-map-marker-alt"></i>Lycée Louis Armand, Chambéry, Savoie
+                            </a>
+                        </span>
+                        </span>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">A propos</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#project">Projets</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li role="presentation" class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            Autres <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <!-- <li>
-                                <a target="_blank" href="http://wikikuro.herokuapp.com/index.php?title=Accueil">Wiki (en pause)</a>
-                            </li> -->
-                            <li>
-                                <a target="_blank" href="https://github.com/Blackksoulls">Github</a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://discord.gg/vCwqtkK">Discord</a>
-                            </li>
-                        </ul>
+                        <span class="year">2017 - ...</span>
+                        <span>
+                           <span class="what">DUT Informatique & Présidence du BDE Info</span>
+                        <span class="where">
+                            <a target="_blank" href="https://iut.univ-lyon1.fr/formation/offre-de-formations/informatique-villeurbanne-doua-/dut-informatique-602480.kjsp">
+                                <i class="fa fa-map-marker-alt"></i>Université Claude Bernard Lyon 1
+                            </a>
+                        </span>
+                        </span>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <!-- Picture and animated text <3 -->
-    <section id="intro" class="intro-section snowy active">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <a class="page-scroll undrag" href="#about"><img src="res/pp.png" class="img-circle mx-auto d-block pp undrag" /></a>
-                    <h1><span id="js-rotating">Kuro, Johan, Kuromachii, Blackksoulls</span></h1>
-                </div>
+        <div id="left">
+            <h2 id="lefttext">Mon projet personnel</h2>
+            <div class="content">
+                <p>
+                    Je compte intégrer une école d'ingénieur ou une école d'informatique après le DUT.
+                    L'informatique est la voie qui me plaît, je pense intégrer le développement web
+                    dans mon projet personnel. Je m'orienterais plus vers le développement de backend
+                    sur ordinateur et non sur le frontend.
+                </p>
+                <p>
+                    Je reste cependant très ouvert à toutes les propositions.
+                </p>
             </div>
         </div>
-    </section>
-
-    <!-- Intro about me -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="text-left">A propos de moi:</h1><br />
-                    <p class="text-left"><b>Bonjour, je suis Kuro !</b><br />
-                            Je suis un étudiant Français, j'ai commencé à programmer il y a quelques années déjà,<br />
-                            mais j'ai vraiment commencé en entrant au lycée.<br />
-                            J'ai commencé avec le Python (que j'apprécie beaucoup), puis je me suis essayé à l'HTML / CSS / JS <br />
-                            que j'ai un peu moins travaillé mais suffisament pour les utiliser pour l'application mobile <br />
-                            pour mon projet de terminale. J'ai aussi vu les bases du PHP, SQL, Ruby, C / C++ (que je reprends en<br />
-                            ce moment pour un projet personnel)<br />
-                            <br />
-                            Je possède aussi un RaspberryPi qui me sert de serveur de test pour mes différents projets<br />
-                            nécessitants une BDD avec un serveur apache. Il me sert aussi pour héberger un Docker.
+        <div id="center">
+            <div class="content">
+                <h1>Johan Planchon</h1>
+                <img alt="&copy; Thien-Shi Vo" src="assets/pictures/pp-TCV.jpg">
+                <div>
+                    <h2>Etudiant en DUT Informatique</h2>
+                    <a target="_blank" href="https://iut.univ-lyon1.fr/formation/offre-de-formations/informatique-villeurbanne-doua-/dut-informatique-602480.kjsp"><i class="fa fa-map-marker-alt"></i>IUT Lyon 1 ~ Informatique</a>
+                    <p>
+                        Etudiant Français, j'ai commencé à programmer il y a quelques années déjà, mais j'ai vraiment commencé en entrant au lycée.
+                        J'ai commencé avec le Python, puis je me suis essayé aux languages du Web (HTML / CSS / JS).
                         <br>
-                        <br />Si vous voulez savoir quelque chose, n'hésitez pas à demander ! o/ Je ne mort pas ;)</p>
+                        En ce moment je m'intéresse aux languages tels que le PHP, le Node.JS et le Ruby.
+                    </p>
+                </div>
+                <div>
+                    <ul>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/johan-planchon/"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                        <li><a target="_blank" href="https://github.com/Blackksoulls"><i class="fab fa-github-alt"></i>GitHub</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Mes projets -->
-    <section id="project" class="project-section">
-        <div class="container not-hiden">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="text-left">Mes projets:</h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 project">
-                                <div class="thumbnail">
-                                    <span class="fa fa-code-fork rose"></span>
-                                    <div class="caption">
-                                        <h2>Mon projet de fin d'année</h2>
-                                        <h4 class="text-left">Le code de mon application Ionic 2 et quelques ressources allant avec.</h4>
-                                        <br />
-                                        <a target="_blank" href="https://github.com/Blackksoulls/phoenix3" class="btn btn-default" role="button">Le projet</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 project">
-                                <div class="thumbnail">
-                                    <span class="fa fa-code marine"></span>
-                                    <div class="caption">
-                                        <h2>Nico chat for Twitch</h2>
-                                        <h4 class="text-left">Un overlay pour Twitch pour afficher le chat comme les commentaires du site Nico Nico douga.</h4>
-                                        <br />
-                                        <a target="_blank" href="https://github.com/Blackksoulls/nico-chat-browser" class="btn btn-default" role="button">Le projet</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 project">
-                                <div class="thumbnail">
-                                    <span class="fa fa-file-text-o violet"></span>
-                                    <div class="caption">
-                                        <h2>Quelques liens utiles</h2>
-                                        <h4 class="text-left">Une Gist remplie avec des liens en rapport avec la programmation et autres.</h4>
-                                        <br />
-                                        <a target="_blank" href="https://gist.github.com/Blackksoulls/562e76e822876c52c828aefd9345fed5" class="btn btn-default" role="button">Le projet</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div id="right">
+            <h2 id="righttext">Mes centres d'intérêt</h2>
+            <div class="content">
+                <p>
+                    Aujourd'hui je suis interessé par l'informatique et surtout la programmation,
+                    mais aussi le dessin papier et l'infographie. Je m'intéresse aussi tout
+                    récemment à la musique (guitare).</p>
+                <p>
+                    Je pratique plusieurs sports tel que la via-ferrata, l'escalade ou le ski.
+                </p>
+                <p>
+                    J'ai aussi commencé l'associatif avec ma présidence du BDE Info et c'est
+                    une expérience formidable qui m'apprends beaucoup, m'ouvre à un réseau
+                    associatif gigantesque. Et un monde étudiant acteur de ses études.
+                </p>
+            </div>
+        </div>
+        <div id="bottom">
+            <h2 id="bottomtext">Mes réalisations</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="title">BaldmanSägen</div>
+                    <div class="data">
+                        <p>Jeu vidéo sous GameMaker pour le projet tutoré du DUT.</p>
+                        <a href="https://github.com/Blackksoulls/baldmanSagen">GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">Phoenix3</div>
+                    <div class="data">
+                        <p>Application mobile pour mon projet de Terminale</p>
+                        <a href="https://github.com/Blackksoulls/phoenix3">GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">NicoChat JS</div>
+                    <div class="data">
+                        <p>Overlay façon "NicoNico" du chat twitch pour le Streaming</p>
+                        <a href="https://github.com/Blackksoulls/nico-chat-browser">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container hiddened">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="text-left">Mes projets:</h1>
-                    <br />
-                        <div class="box">
-                            <a class="text-left" target="_blank" href="https://github.com/Blackksoulls/phoenix3"><h2>Mon projet de fin d'année</h2></a>
-                            <h4 class="text-left">Le code de mon application Ionic 2 et quelques ressources allant avec.</h4>
-                        </div>
-                        <br />
-                        <div class="box">
-                            <a class="text-left" target="_blank" href="https://github.com/Blackksoulls/kurotools"><h2>Kurotools</h2></a>
-                            <h4 class="text-left">Juste quelques outils en python</h4>
-                        </div>
-                        <br />
-                        <div class="box">
-                            <a class="text-left" target="_blank" href="https://gist.github.com/Blackksoulls/562e76e822876c52c828aefd9345fed5"><h2>Quelques liens utiles</h2></a>
-                            <h4 class="text-left">Une Gist remplie avec des liens en rapport avec la programmation et autres.</h4>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Pour me contacter:</h1>
-                    <a target="_blank" href="https://github.com/Blackksoulls"><span class="fa-stack fa-3x fa-lg bordered darker">
-                        <i class="fa fa-github fa-stack-1x secondary" aria-hidden="true"></i>
-                    </span></a>
-                    <a target="_blank" href="https://twitter.com/blackksoulls"><span class="fa-stack fa-3x fa-lg bordered darker">
-                        <i class="fa fa-twitter fa-stack-1x secondary" aria-hidden="true"></i>
-                    </span></a>
-                    <a target="_blank" href="mailto:blackksoulls@gmail.com"><span class="fa-stack fa-3x fa-lg bordered darker">
-                        <i class="fa fa-envelope fa-stack-1x secondary" aria-hidden="true"></i>
-                    </span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- bootstrap js "CORE FILE" :joke:-->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Js for scrolling nav -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    <!-- Js Morphtext -->
-    <script src="js/morphext.min.js"></script>
-    <!-- p5.js -->
-    <script src="js/p5.min.js"></script>
-    <!-- Own Js -->
-    <script src="js/main.min.js"></script>
-</body>
-
+        <!-- JS scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/i18next.min.js"></script>
+        <script src="assets/js/mustache.min.js"></script>
+        <script src="assets/js/typed.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
